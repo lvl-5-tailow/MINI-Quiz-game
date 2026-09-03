@@ -31,3 +31,11 @@ body{
 .screen.active{
     display: block;
 }
+
+/* START SCREEN */
+
+#start-screen h1{
+    color: #e86a35;
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+}
