@@ -28,7 +28,10 @@ body{
     padding: 2rem;
     text-align: center;
 }
-.screen.active{
+/* .screen.active{
+    display:block;
+} */
+#quiz-screen{
     display: block;
 }
 
@@ -38,4 +41,19 @@ body{
     color: #e86a35;
     margin-bottom: 20px;
     font-size: 2.5rem;
+}
+
+.quiz-header{
+    margin-bottom: 2rem
+}
+
+#question-text{
+    color: #334;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    line-height: 1.4;
+}
+
+.quiz-info{
+    display: flex;
 }
